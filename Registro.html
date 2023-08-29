@@ -1,0 +1,46 @@
+<!DOCTYPE html><!-- ENCABEZADO PARA HTML5 -->
+<html  lang="es"><!-- DEFINIMOS UN IDIOMA A LA PÁGINA -->
+<head><!-- INFORMACIÓN DE LA PÁGINA -->
+	<title>REGISTRO</title><!-- TITULO DE LA PÁGINA -->
+	<meta charset="utf-8"><!-- META CON UN FORMATO DE CODIFICACIÓN  DE LA PÁGINA -->
+	<link rel="stylesheet" href="css/estilor.css">
+    <script src="js/codigo1.js"></script>
+</head><!-- FIN DE LA INFORMACIÓN DE LA PÁGINA -->
+<body>
+<img src="Imagenes/Frente/Imagen Central.jpg" id="imagen" alt="portada" onmouseover="cambia1();" onmouseout="restaurar1();"></header>
+<div id="menu">
+  <ul>
+    <li><a href="Index.html">INICIO</a></li>
+    <li><a href="Galeria I.html">GALERIA I</a></li>
+    <li><a href="Galeria II.html">GALERIA II</a></li>
+    <li><a href="Servicios.html">SERVICIOS</a></li>
+    <li><a href="Ofertas.html">OFERTAS</a></li>
+    <li><a href="Registro.html">REGISTRO</a></li>
+  </ul>
+  </div>
+</header>
+<nav> </nav>
+<div><h2 align="center">REGISTRO DE USUARIO</h2></div>
+<section class="seccion1"> 
+	<div><h5 align="center">Usa 8 o más caracteres combinadas entre mayúsculas, minúsculas y números</h5>
+	<div><h5 align="center">Digite al menos una letra mayúscula o un numero en su contraseña</h5>
+<article> <div class="serviviousuario"> 
+	<div><label>Nombre</label></div><br> 
+	<div><label for="email">Correo</label></div><br>
+	<div><label>Contraseña</label></div><br>
+	<div><label>Repita Contraseña</label></div><br>
+</div></article>
+<article> 
+	<div class="serviviousuario1"> 
+	<div><input type="texto" name="Nombre"id="Nombre"style="text-transform:uppercase;"value=""onkeyup="javascript:this.value=this.value.toUpperCase();"></div><br>
+	<div><input type="email" id="email" pattern=".+@+.com" required></div><br>
+	<div><input type="password" name="Contraseña"id="Contraseña"></div><br>
+	<div><input type="password" name="Repita Contraseña"id="Repita Contraseña"></div> <br>
+	</div>
+	<div align="center"><input type="button" name="registrar" value="REGISTRAR" onclick="registrar();"></div></article>
+</section>
+<form>
+	
+</form>
+</body>
+</html>
